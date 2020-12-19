@@ -1,0 +1,63 @@
+body{
+    width: 100%;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+main{
+    width: 80%;
+    background-color: #1a1a1a;
+}
+
+.top{
+    text-align: center;
+    border: 5px solid;
+    border-color: rgb(255, 255, 255);
+}
+
+.command{
+    background-color: #ffffff;
+    height: 450px;
+    border: 2px solid;
+    border-color: rgb(110, 255, 74);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.in_command{
+    background-color: #1a1a1a;
+    height: 120px;
+    border: 2px solid;
+    border-color: rgb(0, 0, 0);
+    background-color: azure;
+}
+
+h1{
+    color: aliceblue;
+}
+
+.write{
+    display: flex;
+    align-items: flex-end;
+}
+
+#terminal{
+	font-family: 'courier new', Futura, Helvetica, '游ゴシック', 'メイリオ', Osaka;
+	width: 100%;
+	height: 100%;
+	overflow: auto;	/* IEでは設定しておかないとスクロールバーが表示されしまう */
+	display: block;	/* 指定しないとスクロールバーが表示される */
+	border: none;	/* 変な余白が出ないように */
+	resize: none;		/* リサイズできると格好悪いので */
+	background-color: rgb(255, 249, 249);
+	color: rgb(0, 0, 0);
+	font-size: 12pt;
+	line-height: 1.4em;	/* 全角文字を入力時にこれ以上の高さがないと入力時にぎくしゃくするため */
+}
+
+.text{
+    
+}
