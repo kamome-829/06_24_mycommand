@@ -21,7 +21,8 @@ main{
     background-color: #ffffff;
     height: 450px;
     border: 2px solid;
-    border-color: rgb(110, 255, 74);
+    border-color: rgb(250, 238, 172);
+    background-color: #2b2727;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -56,8 +57,4 @@ h1{
 	color: rgb(0, 0, 0);
 	font-size: 12pt;
 	line-height: 1.4em;	/* 全角文字を入力時にこれ以上の高さがないと入力時にぎくしゃくするため */
-}
-
-.text{
-    
 }

@@ -1,0 +1,14 @@
+Command>>> ｄふぁｓｄｆ
+
+Command>>> あｓｄふぁｓｄｆ
+
+Command>>> a = 5
+
+Command>>> b = 3
+
+Command>>> jhfghkj
+
+Command>>> a=3
+
+Command>>> b=9
+

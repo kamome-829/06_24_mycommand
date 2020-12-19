@@ -1,5 +1,6 @@
 <?php
 
+
 // $file = fopen('deta/data.txt', 'w'); // ファイルを開く 引数はa
 // flock($file, LOCK_EX); // ファイルをロック
 // fwrite($file, ""); // データに書き込み，
@@ -37,7 +38,9 @@ fclose($file);
             <h1>my command</h1>
         </div>
         <div class="command">
-            <div class="text"><?= $str ?></div>
+            <tbody>
+                <?= $str ?>
+            </tbody>
         </div>
         <div class="in_command">
             <textarea id="terminal" rows="5" cols="20" spellcheck="false"></textarea>
